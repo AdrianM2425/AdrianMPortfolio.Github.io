@@ -1,0 +1,62 @@
+/*Configuring the Menu Bar*/
+.menu-bar {
+    background-color: white;
+    overflow: hidden;
+    outline: 2px solid black;
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu-bar ul li {
+    flex: 1;
+    outline: 2px solid black;
+}
+
+.menu-bar ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-bar ul li a:hover {
+    background-color: #575757;
+}
+
+/*Web Configuration*/
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+h1 {
+	font-family: 'Orbitron', monospace;
+}
+#image-container {
+	background-color: lightgrey;
+	width: 200px;
+	height: 200px;
+	margin-bottom: 20px;
+}
+button {
+	font-family: monospace;
+}
+
+.any {
+	background-color: lightgoldenrodyellow;
+}
+.young {
+	background-color: lightpink;
+}
+.grey {
+	background-color: gray;
+	color: white;
+}
