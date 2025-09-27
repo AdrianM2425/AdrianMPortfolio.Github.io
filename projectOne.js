@@ -1,31 +1,31 @@
-// https://placekeanu.com/
+// https://placeiRyS.com/
 const imageContainer = document.querySelector('#image-container');
 const body = document.querySelector('body');
 
 /* Write a function that will display any Keanu image  */
-function anyKeanu() {
+function plushieiRyS() {
 	clearContainer();
-	body.classList = "any";
+	body.classList = "Plushie";
 	let newImage = document.createElement('img');
-	newImage.src = "https://placekeanu.com/200/200";
+	newImage.src = "irys_plushie.jpeg";
 	imageContainer.appendChild(newImage);
 }
 
 /* Write a function that will display an image of young Keanu */
-function youngKeanu() {
+function versionOneiRyS() {
 	clearContainer();
-	body.classList = "young";
+	body.classList = "1.0";
 	let newImage = document.createElement('img');
-	newImage.src = "https://placekeanu.com/200/200/y";
+	newImage.src = "irys_V_One.png";
 	imageContainer.appendChild(newImage);
 }
 
 /* Write a function that will display an image of grey Keanu */
-function greyKeanu() {
+function versionTwoiRyS() {
 	clearContainer();
-	body.classList = "grey";
+	body.classList = "2.0";
 	let newImage = document.createElement('img');
-	newImage.src = "https://placekeanu.com/200/200/g";
+	newImage.src = "irys_V_Two.png";
 	imageContainer.appendChild(newImage);
 }
 

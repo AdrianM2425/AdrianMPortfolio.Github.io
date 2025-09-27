@@ -32,6 +32,7 @@
 
 /*Web Configuration*/
 body {
+    background-color: palevioletred;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -41,7 +42,7 @@ h1 {
 	font-family: 'Orbitron', monospace;
 }
 #image-container {
-	background-color: lightgrey;
+	background-color: black;
 	width: 200px;
 	height: 200px;
 	margin-bottom: 20px;
