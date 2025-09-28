@@ -2,7 +2,7 @@
 const imageContainer = document.querySelector('#image-container');
 const body = document.querySelector('body');
 
-/* Write a function that will display any Keanu image  */
+/* Write a function that will display any irys image  */
 function plushieiRyS() {
 	clearContainer();
 	body.classList = "Plushie";
@@ -15,7 +15,7 @@ function plushieiRyS() {
 	imageContainer.appendChild(newImage);
 }
 
-/* Write a function that will display an image of young Keanu */
+/* Write a function that will display an image of v1.0 irys */
 function versionOneiRyS() {
 	clearContainer();
 	body.classList = "VOne";
@@ -28,7 +28,7 @@ function versionOneiRyS() {
 	imageContainer.appendChild(newImage);
 }
 
-/* Write a function that will display an image of grey Keanu */
+/* Write a function that will display an image of v2.0 irys */
 function versionTwoiRyS() {
 	clearContainer();
 	body.classList = "VTwo";
