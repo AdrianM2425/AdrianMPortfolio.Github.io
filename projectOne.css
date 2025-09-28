@@ -30,7 +30,7 @@
     background-color: #575757;
 }
 
-/*Web Configuration*/
+/*Site Configuration*/
 body {
     background-color: palevioletred;
 	display: flex;
@@ -38,26 +38,27 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+
 h1 {
 	font-family: 'Orbitron', monospace;
 }
 #image-container {
-	background-color: black;
-	width: 200px;
-	height: 200px;
+	background-color: lightgray;
+	width: 300px;
+	height: 300px;
 	margin-bottom: 20px;
 }
 button {
 	font-family: monospace;
 }
 
-.any {
+.Plushie {
 	background-color: lightgoldenrodyellow;
 }
-.young {
+.VOne {
 	background-color: lightpink;
 }
-.grey {
+.VTwo {
 	background-color: gray;
 	color: white;
 }

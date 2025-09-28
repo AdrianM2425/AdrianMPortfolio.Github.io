@@ -52,6 +52,28 @@ body{
     outline-offset: 5px;
 }
 
+/*Configuring the Statement Info Tab*/
+.stateTab{
+    outline: 2px solid black;
+    outline-offset: 5px;
+    overflow: hidden;
+}
+
+.stateTab p{
+    font-size: medium;
+    float: left;
+    width: 50%;
+    text-align: left;
+    
+}
+
+.statetab img{
+    float: right;
+    width: 50%;
+    text-align: right;
+    padding: 20px;
+}
+
 /*Configuring the Education Info Tab*/
 .educationTab{
     outline: 2px solid black;

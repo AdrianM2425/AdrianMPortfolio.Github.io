@@ -7,25 +7,37 @@ function plushieiRyS() {
 	clearContainer();
 	body.classList = "Plushie";
 	let newImage = document.createElement('img');
-	newImage.src = "irys_plushie.jpeg";
+	newImage.src = "irys_plushie.jpg";
+	newImage.width = 300;
+	newImage.height = 300;
+	newImage.style.display = 'block';
+	newImage.style.margin = '0 auto';
 	imageContainer.appendChild(newImage);
 }
 
 /* Write a function that will display an image of young Keanu */
 function versionOneiRyS() {
 	clearContainer();
-	body.classList = "1.0";
+	body.classList = "VOne";
 	let newImage = document.createElement('img');
 	newImage.src = "irys_V_One.png";
+	newImage.width = 190;
+	newImage.height = 300;
+	newImage.style.display = 'block';
+	newImage.style.margin = '0 auto';
 	imageContainer.appendChild(newImage);
 }
 
 /* Write a function that will display an image of grey Keanu */
 function versionTwoiRyS() {
 	clearContainer();
-	body.classList = "2.0";
+	body.classList = "VTwo";
 	let newImage = document.createElement('img');
 	newImage.src = "irys_V_Two.png";
+	newImage.width = 200;
+	newImage.height = 300;
+	newImage.style.display = 'block';
+	newImage.style.margin = '0 auto';
 	imageContainer.appendChild(newImage);
 }
 
