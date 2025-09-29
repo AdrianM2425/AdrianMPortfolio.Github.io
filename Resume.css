@@ -55,13 +55,11 @@ body{
 }
 
 .textContainer{
-    float: left;
-    width: 50%;
+    text-align: center;
 }
 
 .imgContainer{
-    float: right;
-    width: 40%;
+    text-align: center;
     
 }
 
